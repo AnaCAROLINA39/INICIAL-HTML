@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 300px; /* Largura desejada para a div */
+  }
+  
+  .imagem-pequena {
+   width: 294px;
+    height: 200px; /* Mantém a proporção original da imagem */
+    display: block; /* Remove o espaço em branco extra abaixo das imagens */
+    margin-bottom: 10px; /* Adiciona um espaço entre as imagens, ajuste conforme necessário */
+  }
+  
+.rectangle{
+opacity: 0.3;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.Bg{
+
+    position: absolute;
+    right: -0px;
+    top: -13px;
+    width: 284px;
+    height: 129px;
+}
+.bgt{
+    position: absolute;
+    right: -0px;
+    top: -13px;
+    width: 634px;
+    height: 129px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: -50px;
+    width: 550px;
+    margin: 100px;
+    padding: 40px;
+}
+p{
+color: var(--colors-neutral-white, #FFF);
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+text-align: center;
+}
+.test{
+color: var(--colors-gray-gray-200, #C4C4CC);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+text-align: center;
+}
+.itens{
+    position: absolute;
+    right: -0px;
+    width: 1335px;
+    bottom: 100px;
+    margin-left: 0;
+}
+P{
+color: var(--colors-gray-gray-200, #C4C4CC);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+h1{
+    padding: 2px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    color: var(--colors-gray-gray-200, #C4C4CC); ;
+
+}
+.material-icons{
+    position: absolute;
+    bottom: 160px;
+
+}
+.frame{
+    padding-top: 999px;
+     width: 285px;
+     padding: 10px;
+}
+.cardsgroup{
+    margin:0 ;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; 
+    position: absolute;
+    bottom: -65px;
+}
+span{
+    bottom: 220px;
+    left: 160px;
+    width: 200px;
+}
+#material-icons2{
+    position: absolute;
+    bottom: 118px;
+    left: 480px;
+    width: 280px;
+}
+body{
+  background-color: #28364A;
+
+}
+#material-icons3{
+    position: absolute;
+    bottom: 118px;
+    left: 820px;
+    width: 260px;
+}
+#material-icons4{
+    position: absolute;
+    bottom: 118px;
+    left: 1155px;
+    width: 260px;
+}
+.material-icons:hover{
+    background: #333;
+}
+.frame:hover{
+  background: #333;
+  transition: all 300ms ease-in-out;
+}
